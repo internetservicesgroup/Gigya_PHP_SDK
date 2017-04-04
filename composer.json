@@ -1,5 +1,5 @@
 {
-    "name": "internetservicesgroup/gigya_php_sdk",
+    "name": "isg/gigya_php_sdk",
     "description": "PSR-4 standard code for Gigya PHP API",
     "type": "library",
     "keywords": ["gigya", "gigyaSDK"],
