@@ -2,6 +2,8 @@
 
 namespace ISG\Gigya;
 
+use Exception;
+
 /**
  * Used for passing parameters when issueing requests e.g. GSRequest.send
  * As well as returning response data e.g. GSResponse.getData

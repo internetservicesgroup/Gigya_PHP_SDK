@@ -2,6 +2,8 @@
 
 namespace ISG\Gigya;
 
+use Exception;
+
 /**
  * A Request to Gigya Socialize API
  */
@@ -260,7 +262,7 @@ class GSRequest
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		if (!$result = curl_exec($ch)) {
 			$err = curl_error($ch);
-			throw new \Exception($err);
+			throw new Exception($err);
 		}
 
 		$header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);

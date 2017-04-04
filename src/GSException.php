@@ -2,6 +2,8 @@
 
 namespace ISG\Gigya;
 
+use Exception;
+
 /**
  * Gigya Socialize Exception
  */
